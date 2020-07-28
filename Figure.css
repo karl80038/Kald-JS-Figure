@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body {
+   font-family: 'Roboto', sans-serif;
+}
+#container {
+   height: 400px;
+   margin: 0px;
+   display: block;
+}
+#cRightNotice {
+   padding-left: 20px;
+}
+#siteTitle {
+   padding-left: 20px;
+}
+#drawArea {
+   background-color: aqua;
+   margin-left: 130px;
+   position: absolute; 
+   top: 140px
+}
+#mainControls {
+   height: 20px;
+   width: 350px;
+   top: 100px;
+   position: absolute;
+   padding: 14px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#mainControls input[type=button] {
+   width: 100;
+   margin: 1px;
+}
+#modal {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 1;
+   visibility: hidden;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 1;
+   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+#modal-content {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   z-index: 1;
+   transform: translate(-50%, -50%);
+   color: black;
+   background-color: lightblue;
+   padding-top: 10px;
+   padding-bottom: 100px;
+   padding-left: 50px;
+   padding-right: 50px;
+   width: 24em;
+}
+#modal-content input[type=button] {
+   margin: 2px;
+   padding: 1em;
+}
+/* #dlgNav {
+   position: relative;
+   float: left;
+   left: 0px;
+   height: 2.5em;
+   top: 0;
+}
+#dlgNav ul {
+   float: left;
+   list-style-type: none;
+   margin-right: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-right: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+   overflow: hidden;
+   background-color: palegreen;
+
+}
+#dlgNav li {
+
+   float: left;
+   background-color: lightcyan;
+   border-left: 1px solid;
+   border-right: 1px solid;
+   padding-right: 1px;
+}
+#dlgNav li a {
+   display: inline-block;
+
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: 400;
+   padding: 3px;
+   color: black;
+
+   text-align: center;
+   text-decoration: none;
+}
+
+#dlgNav li a:hover {
+   background-color: whitesmoke;
+   cursor: pointer;
+} */
+#dlgBTN {
+   position: relative;
+   width: 100%;
+   bottom: 0px;
+}
+nav {
+   position: relative;
+   height: 2.5em;
+   padding: 2px;
+   margin: 2px;
+}
+nav ul {
+   list-style-type: none;
+   margin-right: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-right: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+   padding-left: 2px;
+
+   overflow: hidden;
+   background-color: blueviolet;
+
+}
+h1 {
+   font-weight: 300;
+}
+h2 {
+   font-weight: 300;
+}
+h3 {
+   font-weight: 300;
+}
+nav li {
+   float: left;
+}
+
+nav li a {
+   display: inline-block;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: 400;
+   color: whitesmoke;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+nav li a:hover {
+   background-color: plum;
+}
+#dlgContent {
+   position: relative;
+
+   margin: 4px;
+   background-color: white;
+   border: 0.1px solid black;
+   padding-top: 40px;
+   padding-bottom: 20px;
+   overflow: visible;
+}
+#dlgTitle {
+   position: relative;
+}
+.drawingControls {
+   height: 400px;
+   top: 140px;
+   width: 100px;
+   display: block;
+   /* padding: 5px; */
+
+   padding-left: 20px;
+   padding-right: 20px;
+   position: absolute;
+
+}
+.drawingControls input[type=button] {
+   width: 100;
+   margin: 1px;
+}
+body {
+   position: relative;
+}
